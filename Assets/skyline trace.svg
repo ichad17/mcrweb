@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+	<title>skyline trace</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-1283,-67.239,37.313,-711.972,1283,411.62)">
+			<stop offset="0" stop-color="#40fee5"/>
+			<stop offset=".262" stop-color="#68d4e4"/>
+			<stop offset=".648" stop-color="#c376e2"/>
+			<stop offset="1" stop-color="#ff37e0"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: none;stroke: url(#g1);stroke-miterlimit:100;stroke-width: 5.1 } 
+	</style>
+	<path id="Shape 1" class="s0" d="m0 410l28 4 27-1 15 8 21-4 2-77 8-10 18 2 1 75h29v-3l4-2h11v6h6v8l5 4 3 2 3 3h30v-14h57v-2h7l3-299 42.6 2.5 42.3-1.8 0.1 332.3 15-1 3-349 20-13 18-17 25 12 30 6 1 82 43 5-0.6 245.8 13.6 0.2 22 3 2 7 7 1 2 19 27-1-1-376 45-12 39-19 27 25 36 20-1 74c0 0 25.5-14.1 48 1 1.3 34 5 262 5 262l8 2 1-8 20-2v-5l17 1v-165l7-10 32 1 1 193h11l-7 8v21l9 1v-65l16-2 2-16 14-2 1-101 6-1 1-17h4l1-7 49-4 5 4 1 55 6-10-1-17 17-21h24l42 20 2 21 7 4 3 77 5 13 8 8-4 4v18l6 5-4 4 1 23 49 6 18-1 5 15h32 17l-1-23 17 12h46l-3 "/>
+</svg>
