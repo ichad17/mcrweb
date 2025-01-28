@@ -184,6 +184,14 @@ footer {
 section.skills {
     display: flex;
     justify-content: center;
+    box-shadow: 0px -20px 100px 0px #00000050, 0px 20px 100px 0px #00000050;
+    position: relative;
+    z-index: 9;
+}
+
+div.markupTransform {
+    max-width: 900px;
+    margin: auto;
 }
 
 aside.skills__navigation {
@@ -205,6 +213,9 @@ article.skills__content {
     position:relative;
     z-index: 1;
     flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .skills__navigation li {
@@ -224,9 +235,9 @@ article.skills__content {
 }
 
 .skills__navigation li.active {
-    color: #6400ff;
-    box-shadow: 0px 0px 10px #6400ff;
-    text-shadow: 0px 0px 5px #ac90d5;
+    color: #c7aeed;
+    box-shadow: 0px 0px 2px white, 0px 0px 10px #9840e9;
+    text-shadow: 0px 0px 12px #9840e9;
 }
 
 .skill__logos img {
@@ -297,15 +308,19 @@ section.footer__container {
     margin-bottom: 1em;
 }
 
-input {
+.footer__content input {
     padding: 10px;
     margin: 4px;
+    border: none;
+    border-radius: 5px;
 }
 
-textarea {
+.footer__content textarea {
     font-family: sans-serif;
     padding: 10px;
     margin: 5px;
+    border: 0;
+    border-radius: 5px;
 }
 
 .footer__content button {
@@ -316,4 +331,66 @@ textarea {
     border: 0;
     color: white;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header .hero-banner__content {
+        padding: 0px 20px;
+    }
+
+    header .hero-banner__image img {
+        max-width: 200px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    footer#footer {
+        padding-top: 50px;
+    }
+
+    form {
+        margin: 20px auto 50px auto;
+    }
+
+    section.footer__container {
+        padding: 20px 10px 0px 10px;
+    }
+
+    .footer__content button {
+        padding: 10px 15px;
+    }
+
+    aside.skills__navigation {
+        display: none;
+    }
+    
+    article.skills__content {
+        display: flex !important;
+    }
+    
+    aside.skill__logos {
+        display: flex !important;
+        flex-direction: row;
+        background: black;
+        padding: 20px;
+    }
+    
+    section.skills {
+        flex-direction: column;
+    }
+    
+    header.hero-banner {
+        flex-direction: column;
+    }
+    
+    section.hero-banner__container {
+        flex-direction: column;
+    }
+    
 }
